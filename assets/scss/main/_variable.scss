@@ -1,0 +1,33 @@
+// default font family
+@font-face {
+	font-family: 'cabinetGrotesk';
+	src: url('../webfonts/cabinetGrotesk.ttf') format('truetype');
+}
+
+// default root
+:root {
+	--body-font: 'cabinetGrotesk', serif;
+	--transition: all 0.5s ease-in-out;
+
+	/* Color styles */
+	--p1: 22, 64, 75;
+	--s1: 255, 255, 255;
+
+	--n1: 255, 255, 255;
+	--n2: 240, 240, 240;
+	--n3: 22, 64, 75;
+
+	--gradient-p1: linear-gradient(142deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 21.84%);
+
+	--box-shadow-p1: linear-gradient(142deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 21.84%);
+	
+	--box-shadow-p2: 0px 210px 59px 0px rgba(0, 0, 0, 0.00), 0px 135px 54px 0px rgba(0, 0, 0, 0.01), 0px 76px 45px 0px rgba(0, 0, 0, 0.05), 0px 34px 34px 0px rgba(0, 0, 0, 0.09), 0px 8px 19px 0px rgba(0, 0, 0, 0.10);
+
+	// hex color 
+	--hex-p1: #3368C6;
+	--hex-s1: #ffffff;
+
+	--hex-n1: #ffffff;
+	--hex-n2: #F0F0F0;
+	--hex-n3: #3368C6;
+}
